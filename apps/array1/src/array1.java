@@ -42,11 +42,11 @@ public class array1 {
 		for (int j = i + 1; j < end; j++) {
 			if (array[i] == array[j]) {
 				int shiftLeft = j;
-					for (int k = j+1; k < end; k++, shiftLeft++) {
-					array[shiftLeft] = array[k];
-					}
-					end--;
-					j--;
+				for (int k = j+1; k < end; k++, shiftLeft++) {
+				array[shiftLeft] = array[k];
+				}
+			end--;
+			j--;
 			}
 		}
 	}
